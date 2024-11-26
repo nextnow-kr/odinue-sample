@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>메시지 템플릿 에디터</title>
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="templateList" class="template-list"></div>
+      <div id="messagePreview" class="message-preview"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Store.js"></script>
+    <script src="MessageTemplateComponent.js"></script>
+    <script src="MessagePreviewComponent.js"></script>
+    <script>
+      // Store 인스턴스 생성
+      const store = new Store();
+      
+      // component 위치할 ID 값과 Store 로 컴포넌트 객체 생성
+      const messagePreview = new MessagePreviewComponent("messagePreview", store);
+      const templateList = new MessageTemplateComponent("templateList", store);
+    </script>
+  </body>
+</html>

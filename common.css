@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.template-list, .message-preview {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
