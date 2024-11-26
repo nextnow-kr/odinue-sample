@@ -11,7 +11,7 @@
 - 모바일 디바이스 프리뷰
 
 ## 기술 스택
-- Vanilla JavaScript (ES6+)
+- Vanilla JavaScript (ES5+)
 - jQuery 3.6.0
 - HTML5
 - CSS3
@@ -144,17 +144,3 @@ const preview = new MessagePreviewComponent('messagePreview', store);
 ### 3. 성능 최적화
 - 불필요한 렌더링 방지
 - 이벤트 위임 활용
-- 디바운싱 적용
-
-## 브라우저 지원
-- Chrome (최신)
-- Firefox (최신)
-- Safari (최신)
-- Edge (최신)
-
-## 주의사항
-- 모든 데이터는 브라우저 LocalStorage에 저장됩니다
-- 템플릿 내용은 실시간 저장됩니다
-
-## 라이선스
-MIT License
