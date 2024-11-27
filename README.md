@@ -11,7 +11,7 @@
 - 모바일 디바이스 프리뷰
 
 ## 기술 스택
-- Vanilla JavaScript (ES5+)
+- Vanilla JavaScript (ES6)
 - jQuery 3.6.0
 - HTML5
 - CSS3
